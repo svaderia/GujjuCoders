@@ -16,7 +16,10 @@ author:
   name:           'Shyamal'
   url:            ''
 
-gems:
-                  [jekyll-paginate]
 paginate:         5
 
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon
