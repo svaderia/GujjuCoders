@@ -10,16 +10,13 @@ title:            GujjuCoders
 tagline:          'Gujjus by heart, Indians by passion, BITSians by destiny.'
 description:      'Gujjus by heart, Indians by passion, BITSians by destiny.'
 url:              "http://localhost:4000"
-baseurl:	  ""
+baseurl:	         ""
 
 author:
   name:           'Shyamal'
   url:            ''
-
+gems:
+                  [jekyll-paginate]
 paginate:         5
 
-# Custom vars
-version:          2.0.0
 
-github:
-  repo:           https://github.com/poole/lanyon
