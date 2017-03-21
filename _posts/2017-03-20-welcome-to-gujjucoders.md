@@ -24,7 +24,7 @@ blog on markdown, if you are inpatient enough here is [link](http://www.markdown
 This [cheatSheet]({{ site.url }}{{ site.baseurl }}/assets/Markdown.pdf) can be very handy for Markdown.  
 I'm going to explicitly tell you about How to write a post.  
 ## Writing post  
-We are using a particular format for front-matter (You should know what front matter is)  
+We are using a perticular format for front-matter (You should know what front matter is)  
 Here is a front matter of this blog.  
 {% highlight ruby %}
 layout: post
@@ -44,16 +44,6 @@ Only give relevant tags to your post. For multiple tag make an array of tags lik
 You can use `_drafts` folder for your unfinished blog. Do read about it.  
 Fork this repo and work on it locally than send a pull request. Don't commit unfinished work. You can use 
 [stash](https://www.git-tower.com/learn/git/ebook/en/command-line/branching-merging/stashing#start) for this.  
-Before you run it for first time install ruby, jekyll and its dependecies using following code.
-{% highlight bash %}
-sudo apt-get install ruby-full
-sudo gem install jekyll
-sudo gem install jekyll-paginate
-sudo gem install pygments.rb
-sudo gem install bundler
-sudo gem install redcarpet
-{% endhighlight %}
-
 You can also view the site locally before sending the pull request.
 Just run the following code in your terminal.
 {% highlight bash %}
