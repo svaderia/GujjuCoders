@@ -3,7 +3,7 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        /GujjuCoders/:categories/:title.html
+permalink:        /:categories/:title/
 
 # Setup
 title:            GujjuCoders
