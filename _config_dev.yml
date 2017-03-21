@@ -9,7 +9,8 @@ permalink:        none
 title:            GujjuCoders
 tagline:          'Gujjus by heart, Indians by passion, BITSians by destiny.'
 description:      'Gujjus by heart, Indians by passion, BITSians by destiny.'
-url:              
+url:              "http://localhost:4000"
+baseurl:	  ""
 
 author:
   name:           'Shyamal'
