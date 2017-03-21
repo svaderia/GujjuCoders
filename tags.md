@@ -34,7 +34,7 @@ to the `site_tags` variable. -->
       <ul style="list-style-type:disc">
       <div>
         <span style="float: left;">
-          <a href="{{ site.baseurl}}/{{ post.url }}">{{ post.title }}</a>
+          <a href="{{site.url}}{{ site.baseurl}}/{{ post.url }}">{{ post.title }}</a>
         </span>
         <span style="float: right;">
           {{ post.date | date_to_string }}
