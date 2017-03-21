@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        none
+
+# Setup
+title:            GujjuCoders
+tagline:          'Gujjus by heart, Indians by passion, BITSians by destiny.'
+description:      'Gujjus by heart, Indians by passion, BITSians by destiny.'
+url:              'http://svaderia.github.io/GujjuCoders'
+
+author:
+  name:           'Shyamal'
+  url:            ''
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon

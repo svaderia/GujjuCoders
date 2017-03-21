@@ -1,0 +1,40 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+
+    <!-- Home -->
+    <a class="sidebar-nav-item" href="/">
+      <svg class="icon-portal"></svg> Home
+    </a>
+
+    <!-- About -->
+    <a class="sidebar-nav-item" href="/about/">
+      <svg class="icon-about"></svg> About
+    </a>
+
+    <!-- Archive -->
+    <a class="sidebar-nav-item" href="/archive/">
+      <svg class="icon-archive"></svg> Archive
+    </a>
+
+    <!-- Tags -->
+    <a class="sidebar-nav-item" href="/tags/">
+      <svg class="icon-tags"></svg> Tags
+    </a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+    </p>
+  </div>
+</div>
