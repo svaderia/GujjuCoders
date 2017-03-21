@@ -37,8 +37,8 @@ See `_data` folder to know how author information looks like. Add the relevant d
 I have decided to make only two categories for blog now. `Blog` and `Notes`.
 `Blog` will have your normal blog posts, whereas `Notes` will have some quick notes about any topic 
 for your future reference.  
-Only give relevant tags to your post. For multiple tag make an array of tags like
-`tags: [Python, Linux, Matlab`]   
+Only give relevant tags to your post. For multiple tag make an array of tags like  
+`tags: [Python, Linux, Matlab]`   
 
 ## General structure 
 You can use `_drafts` folder for your unfinished blog. Do read about it.  
