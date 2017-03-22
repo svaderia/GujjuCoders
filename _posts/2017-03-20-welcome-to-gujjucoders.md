@@ -51,7 +51,6 @@ sudo gem install jekyll
 sudo gem install jekyll-paginate
 sudo gem install pygments.rb
 sudo gem install bundler
-sudo gem install redcarpet
 {% endhighlight %}
 
 You can also view the site locally before sending the pull request.
