@@ -39,6 +39,8 @@ I have decided to make only two categories for blog now. `Blog` and `Notes`.
 for your future reference.  
 Only give relevant tags to your post. For multiple tag make an array of tags like  
 `tags: [Python, Linux, Matlab]`   
+If you want to add Emoji in your posts, GitHub also supports that, here is a link to 
+[cheatSheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/).
 
 ## General structure 
 You can use `_drafts` folder for your unfinished blog. Do read about it.  
@@ -49,7 +51,6 @@ Before you run it for first time install ruby, jekyll and its dependecies using 
 sudo apt-get install ruby-full
 sudo gem install jekyll
 sudo gem install jekyll-paginate
-sudo gem install pygments.rb
 sudo gem install bundler
 {% endhighlight %}
 
