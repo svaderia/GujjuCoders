@@ -15,8 +15,5 @@ baseurl:	         ""
 author:
   name:           'Shyamal'
   url:            ''
-gems:
-                  [jekyll-paginate]
-paginate:         5
 
 
