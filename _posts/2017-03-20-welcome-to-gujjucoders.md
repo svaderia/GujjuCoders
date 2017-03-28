@@ -8,9 +8,9 @@ tags: [Jekyll]
 
 Hello folks! Welcome to **GujjuCoders**.  
 Initially I was thinking of writing a general welcome message for everyone out there. 
-But then I realise that this is going to be almost our private blog.
+But then I realize that this is going to be almost our private blog.
 So I'm going to write some general guidelines for you.  
-I have spent enough time on desiging this blog you just need to know how Jekyll works and 
+I have spent enough time on designing this blog you just need to know how Jekyll works and 
 how you can write a post.  
 ## Resources  
 First of all you should know about git and GitHub. Those who want to learn or refine their concept of git
@@ -44,9 +44,10 @@ If you want to add Emoji in your posts, GitHub also supports that, here is a lin
 
 ## General structure 
 You can use `_drafts` folder for your unfinished blog. Do read about it.  
-Fork this repo and work on it locally than send a pull request. Don't commit unfinished work. You can use 
+Fork this repository and work on it locally than send a pull request. Don't commit unfinished work. 
+You can use 
 [stash](https://www.git-tower.com/learn/git/ebook/en/command-line/branching-merging/stashing#start) for this.  
-Before you run it for first time install ruby, jekyll and its dependecies using following code.
+Before you run it for first time install ruby, jekyll and its dependencies using following code.
 {% highlight bash %}
 sudo apt-get install ruby-full
 sudo gem install jekyll
@@ -55,7 +56,8 @@ sudo gem install bundler
 {% endhighlight %}
 
 You can also view the site locally before sending the pull request.
-Just run the following code in your terminal.
+Just run the following code in your terminal. If you can't remember the command just set 
+an alias in your `.bashrc`
 {% highlight bash %}
 jekyll serve --config _config.yml,_config_dev.yml
 {% endhighlight %}
