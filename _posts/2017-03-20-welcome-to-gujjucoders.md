@@ -61,6 +61,17 @@ an alias in your `.bashrc`
 {% highlight bash %}
 jekyll serve --config _config.yml,_config_dev.yml
 {% endhighlight %}
+
+## Fetch changes from main branch  
+Make a point to do this before you start changing anything even in your forked repo as this will merge main branch with yours and bring you up to speed.  
+**Only first time**  
+{% highlight bash %}
+git remote add upstream https://github.com/svaderia/GujjuCoders.git
+{% endhighlight %}  
+**Every single time**
+{% highlight bash %}
+git pull upstream master
+{% endhighlight %}
 If you planning to change some design do tell me before doing it.  
 I'm expecting much from each and everyone. Let's share everything we know and learn a lot from this.
 If you have any doubt contact me.  
