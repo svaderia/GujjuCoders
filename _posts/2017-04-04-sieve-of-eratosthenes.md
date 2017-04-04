@@ -2,6 +2,8 @@
 layout: post
 title: Sieve of Eratosthenes
 subtitle: Finding prime numbers made easy!
+author: mdp98
+category: Blog
 tags: [Algorithms, Competitive Programming, Java]
 ---
 
