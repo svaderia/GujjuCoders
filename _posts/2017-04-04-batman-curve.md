@@ -1,7 +1,6 @@
 ---
 layout: post
 title: The Batman Curve
-subtitle: What if Bruce Wayne was a coder?
 author: mdp98
 category: Blog
 tags: MATLAB
