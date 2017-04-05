@@ -2,6 +2,8 @@
 layout: post
 title: The Batman Curve
 subtitle: What if Bruce Wayne was a coder?
+author: mdp98
+category: Blog
 tags: MATLAB
 ---
 
@@ -29,7 +31,7 @@ eq6 = (6*sqrt(10)/7+(1.5-.5*abs(x))*sqrt(abs(abs(x)-1)/(abs(x)-1))-(6*sqrt(10)/1
 eqf = '((x/7)^2*sqrt(abs(abs(x)-3)/(abs(x)-3))+(y/3)^2*sqrt(abs(y+(3*sqrt(33))/7)/(y+(3*sqrt(33))/7))-1)*(abs(x/2)-((3*sqrt(33)-7)/112)*x^2-3+sqrt(1-(abs(abs(x)-2)-1)^2)-y)*(9*sqrt(abs((abs(x)-1)*(abs(x)-3/4))/((1-abs(x))*(abs(x)-3/4)))-8*abs(x)-y)*(3*abs(x)+3/4*sqrt(abs((abs(x)-3/4)*(abs(x)-1/2))/((3/4-abs(x))*(abs(x)-1/2)))-y)*(9/4*sqrt(abs((x-1/2)*(x + 1/2))/((1/2-x)*(1/2+x)))-y)*((6*sqrt(10))/7+(3/2-abs(x)/2)*sqrt(abs(abs(x)-1)/(abs(x)-1))-(6*sqrt(10))/14*sqrt(4-(abs(x)-1)^2)-y)=0';
 
 axes('Xlim', [-7.25 7.25], 'Ylim', [-5 5]);       %Sets limit of x and y axes
-hold on                               %Plots following equations on same plot
+hold on                                           %Plots following equations on same plot
 
 %Plotting equations
 ezplot(eq1,[-8 8 -3*sqrt(33)/7 6-4*sqrt(33)/7]);
@@ -41,15 +43,15 @@ ezplot(eq5,[-0.5 0.5 -5 5]);
 ezplot(eq6,[-3 -1 -5 5]);
 ezplot(eq6,[1 3 -5 5]);
 
-title('Batman');                        %Defines plot title
+title('Batman');                                  %Defines plot title
 xlabel('');                                     
 ylabel('');
-hold off                                 %All equations before this are plotted on same plot
+hold off                                          %All equations before this are plotted on same plot
 
 figure                                            %Opens empty figure
 axes('Xlim', [-7.25 7.25], 'Ylim', [-5 5]);       %Sets limit of x and y axes
 hold on
-ezplot(eqf, [-7 7 -3 3]);             %Removes the additional disturbance and plots a clean figure
+ezplot(eqf, [-7 7 -3 3]);                         %Removes the additional disturbance and plots a clean figure
 hold off
 ```
 
