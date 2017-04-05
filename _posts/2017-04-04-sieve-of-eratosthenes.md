@@ -85,6 +85,7 @@ class PrimeNumber{
     }
 }
 ```
-
+Default value at all indices of boolean array is false. So you can assume that false represents a
+prime number and true represents a composite number. This will eliminate a `loop` in the code.  
 Give this a try!
 In case of queries, feel free to reach out :)
