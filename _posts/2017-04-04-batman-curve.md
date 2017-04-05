@@ -5,7 +5,7 @@ author: mdp98
 category: Blog
 tags: MATLAB
 ---
-
+ 
 Just admit it! Everyone loves Batman. And if you don't, are you even human bruh? Okay, done with the jokes. Time to get a little geeky about this DC superhero. If you are a man of Science, you would definitely agree that every shape in this physical world is a representation of some complex mathematical equations. So, I won't be lying if I say that if I somehow know the mathematical equation of some shape, I can recreate it.
 
 Let us create the famous Batman logo.
