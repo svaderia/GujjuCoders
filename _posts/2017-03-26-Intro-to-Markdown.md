@@ -60,3 +60,7 @@ Example:
 Add two spaces at the end to start a new line.  
 Example : Start a new  
 line.
+
+11. **Highlight**:
+/=/=Hello/=/=  
+==Hello==
