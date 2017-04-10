@@ -12,7 +12,8 @@ Let us create the famous Batman logo.
 
 MATLAB is a powerful tool to plot mathematical equations, which are otherwise tiresome to solve. The MATLAB code to plot the Batman curve is as follows:
 
-```MATLAB
+
+{% highlight matlab %}
 %Initialization : Clearing workspace
 clf; clear all;
 
@@ -42,17 +43,17 @@ ezplot(eq5,[-0.5 0.5 -5 5]);
 ezplot(eq6,[-3 -1 -5 5]);
 ezplot(eq6,[1 3 -5 5]);
 
-title('Batman');                                  %Defines plot title
+title('Batman');                             %Defines plot title
 xlabel('');                                     
 ylabel('');
-hold off                                          %All equations before this are plotted on same plot
+hold off                                     %All equations before this are plotted on same plot
 
-figure                                            %Opens empty figure
-axes('Xlim', [-7.25 7.25], 'Ylim', [-5 5]);       %Sets limit of x and y axes
+figure                                       %Opens empty figure
+axes('Xlim', [-7.25 7.25], 'Ylim', [-5 5]);  %Sets limit of x and y axes
 hold on
-ezplot(eqf, [-7 7 -3 3]);                         %Removes the additional disturbance and plots a clean figure
+ezplot(eqf, [-7 7 -3 3]);                    %Removes the additional disturbance for a clean figure
 hold off
-```
+{% endhighlight %}
 
 The result looks something like this.
 
