@@ -20,6 +20,7 @@ List of plugins added by me:
 * MagicPythonp
 * SpellChecker
 * VSCode Great Icons
+* Hopscotch (It's a color theme)
 
 ## Theme
 Using `Unity tweak tool`  
