@@ -8,13 +8,14 @@ tags: [Algorithm, Sort]
 Merge sort is a sorting algorithm that is better than the three basic sorting algorithms, selection sort, insertion sort and bubble sort. Merge sort is better in terms of 
 its time complexity, which is O(n log(n)). Selection sort, insertion sort and bubble sort each have a complexity of 0(n^2^), which is much slower than O(n log(n)).  
 
-[Big O Complexity]({{ site.url }}{{ site.baseurl }}/assets/big-o-complexity.png)  
+![Big O Complexity]({{ site.url }}{{ site.baseurl }}/assets/big-o-complexity.png)  
 
 Now let's get to the algorithm of merge sort.  
 Before that, you should look its pseudo code, so that you can get a rough idea of how it works.  
 
-'''
+```
 on input of n elements  
+
 	if n < 2
 		return
 	else
@@ -22,15 +23,18 @@ on input of n elements
 		sort right half of elements
 		merge sorted halves
 
-'''  
+```  
 
 Looks really simple, doesn't it? The basic concept of merge sort is clearly very easy to understand.  
+
 First of all, you check the trivial cases of less than 2 elements. If there is only 1 element, then it is already sorted. 
 If there are 0 elements, then again, even though meaninglessly, it is sorted, as there is nothing to sort.  
+
 Now, the real stuff- when there are 2 or more elements. Firstly, we obviously assume that they are all stored in an array. Now, How do you 
 sort the left and right half of elements? You might have guessed it, merge sort! Again, you sort the left and right halves of the *left* 
 half of the original array. And you go on... So there is the concept of recursion in merge sort where at every step, you invoke the same algorithm 
 and sort halves.  
+
 Now you may have a basic idea of merge sort. If not, don't worry. Next, we will take an example to help visualise how this works. 
 And rest assured, I am going to go really, really, really slow with this.  
 
@@ -72,6 +76,7 @@ We essentially follow the same steps as the left half and get that done. Boom!
 We have come very close to the end of our sort. The left and the right halves of the array have been sorted individually. 
 All we have to do now is merge them. Earlier, there was only 1 element in the right and left half of the arrays each, so merging was very easy. 
 Things get slightly tricky now. Focus. First of all, declare a new empty array.  
+
 Point your left index finger to the first element of the left half of the array, which is 4. Point your right finger to the first element of the right 
 half of the array, which is 2. Now compare these numbers. 2 is less than 4 so 2 goes first in the new array. Now point your right index finger
 to the next element after 2, which is 6. Do nothing to your left finger.  
@@ -101,11 +106,12 @@ Now just sequentially add all the remaining elements from the left half. We have
 Lo and behold! We have just sorted an array with 4 elements using merge sort. What if we had to sort an array with 8 elements?
 All we would have to do is sort the left and right halves of the array as shown and then merge them. The same goes for an array of 
 any size. This was just a small cog in a larger wheel.  
+
 You may now be wondering that declaring a new array for every step will take up a lot of memory, but we don't need to declare so many arrays practically.
 We can do our sorting using only two arrays. After each step, the previous array becomes useless and so it can be overwritten for the next step.  
 Now that the algorithm has been understood, let us look at some actual C code.
 
-'''C
+```C
 
 #include <stdio.h>
 #define max 10
@@ -161,16 +167,16 @@ int main() {
    for(i = 0; i <= max; i++)
       printf("%d ", a[i]);
 }
-'''  
+```  
 
 If we compile and run the above program, it will produce the following result-  
 
-'''
+```
 List before sorting
 10 14 19 26 27 31 33 35 42 44 0
 List after sorting
 0 10 14 19 26 27 31 33 35 42 44
-'''
+```
 
 
 
