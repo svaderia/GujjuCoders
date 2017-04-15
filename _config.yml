@@ -16,4 +16,5 @@ author:
   name:           'Shyamal'
   url:            ''
 
-
+gems:
+  - jemoji
