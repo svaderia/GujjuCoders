@@ -6,8 +6,8 @@ category: Blog
 tags: [Python]
 ---
 
-Today I'm going to write about formatting of strings in Python using `format()` function.  
-Sending out a root mail(in BITS) got me inspired to write an article on it. So here's something for my (and maybe your too :wink:) future reference.
+Today I'm going to write about formatting of strings in Python using `format()` function. 
+Sending out a root mail(in BITS) got me inspired to write an article on it. So here's something for my (and maybe even for your :wink:) future reference.
 ## Basic formatting
 {% highlight python %}
 ' {} {}'.format('one', 'two')
