@@ -3,7 +3,7 @@ layout: post
 title: Merge Sort
 author: aay
 category: Blog
-tags: [Algorithm, Sort]
+tags: [Algorithms, Sort, C]
 ---
 Merge sort is a sorting algorithm that is better than the three basic sorting algorithms, selection sort, insertion sort and bubble sort. Merge sort is better in terms of 
 its time complexity, which is O(n log(n)). Selection sort, insertion sort and bubble sort each have a complexity of 0(n^2^), which is much slower than O(n log(n)).  
@@ -13,7 +13,7 @@ its time complexity, which is O(n log(n)). Selection sort, insertion sort and bu
 Now let's get to the algorithm of merge sort.  
 Before that, you should look its pseudo code, so that you can get a rough idea of how it works.  
 
-```
+{% highlight python %}
 on input of n elements  
 
 	if n < 2
@@ -23,7 +23,7 @@ on input of n elements
 		sort right half of elements
 		merge sorted halves
 
-```  
+{% endhighlight %}
 
 Looks really simple, doesn't it? The basic concept of merge sort is clearly very easy to understand.  
 
@@ -111,8 +111,7 @@ You may now be wondering that declaring a new array for every step will take up 
 We can do our sorting using only two arrays. After each step, the previous array becomes useless and so it can be overwritten for the next step.  
 Now that the algorithm has been understood, let us look at some actual C code.
 
-```C
-
+{% highlight C %}
 #include <stdio.h>
 #define max 10
 
@@ -167,16 +166,19 @@ int main() {
    for(i = 0; i <= max; i++)
       printf("%d ", a[i]);
 }
-```  
+{% endhighlight %}
+
+
 
 If we compile and run the above program, it will produce the following result-  
 
-```
+{% highlight ruby %}
 List before sorting
 10 14 19 26 27 31 33 35 42 44 0
 List after sorting
 0 10 14 19 26 27 31 33 35 42 44
-```
+{% endhighlight %}
+
 
 
 
