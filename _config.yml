@@ -10,7 +10,7 @@ title:            GujjuCoders
 tagline:          'Gujjus by heart, Indians by passion, BITSians by destiny.'
 description:      'Gujjus by heart, Indians by passion, BITSians by destiny.'
 url:              gujjucoders.me
-baseurl:          /
+baseurl:          
 
 author:
   name:           'Shyamal'
