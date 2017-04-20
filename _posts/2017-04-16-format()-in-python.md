@@ -262,16 +262,16 @@ The datetime example works through the use of the `__format__()` magic method. Y
 class HAL9000(object):
 
     def __format__(self, format):
-        if (format == 'open-the-pod-bay-doors'):
-            return "I'm afraid I can't do that."
+        if (format == 'hodor'):
+            return "Hold the door!!"
         return 'HAL 9000'
 {% endhighlight %}
 **Input**
 {% highlight python %}
-' {:open-the-pod-bay-doors}'.format(HAL9000())
+' {:hodor}'.format(HAL9000())
 {% endhighlight %}
 **Output**
 {% highlight bash %}
-$ I'm afraid I can't do that.
+$ Hold the door!!
 {% endhighlight %}
 
