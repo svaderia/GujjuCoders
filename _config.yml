@@ -12,3 +12,6 @@ description:      'Gujjus by heart, Indians by passion, BITSians by destiny.'
 url:              gujjucoders.me
 baseurl:          
 
+gems:
+  - jemoji
+  - jekyll-gist
