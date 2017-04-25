@@ -15,13 +15,13 @@ how you can write a post.
 ## Resources  
 First of all you should know about git and GitHub. Those who want to learn or refine their concept of git
 here is the [resource.](https://www.git-tower.com/learn/git/ebook/en/command-line/introduction#start)
-This [cheatSheet]({{ site.url }}{{ site.baseurl }}/assets/git-cheatsheet-EN-dark.pdf) comes handy while working with git.   
+This [cheatSheet]({{site.baseurl}}/assets/git-cheatsheet-EN-dark.pdf) comes handy while working with git.   
 Now that you know about git, you need to learn Jekyll. Go through this 
 [Tutorial](http://jekyll.tips/). If you get stuck anywhere 
 this is the link to the official [documentation](https://jekyllrb.com/docs/home/).  
 After gone through all this you should learn markdown and start writing blog. Megh is going to put one 
 blog on markdown, if you are inpatient enough here is [link](http://www.markdowntutorial.com/). 
-This [cheatSheet]({{ site.url }}{{ site.baseurl }}/assets/Markdown.pdf) can be very handy for Markdown.  
+This [cheatSheet]({{site.baseurl}}/assets/Markdown.pdf) can be very handy for Markdown.  
 I'm going to explicitly tell you about How to write a post.  
 ## Writing post  
 We are using a particular format for front-matter (You should know what front matter is)  

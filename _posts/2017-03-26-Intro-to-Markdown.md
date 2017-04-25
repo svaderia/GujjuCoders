@@ -30,7 +30,7 @@ Example : Click [here](/) to go to the homepage.
 5. **Images**:  
 To add an image, the format is precede the hyperlink format with an '!', 
 the square brackets contain the alternate text while the parentheses contain the image URL.
-![OctoCat]({{ site.url }}{{ site.baseurl }}/assets/Octocat.jpg)  
+![OctoCat](/assets/Octocat.jpg)  
 
 6. **Blockquote**:  
 Precede the text with a 'greater than' sign to initiate a blockquote. They are necessary when you wish to draw special attention to a particular text in a post.  

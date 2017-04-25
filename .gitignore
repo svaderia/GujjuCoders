@@ -3,6 +3,7 @@ _gh_pages
 _site
 .ruby-version
 _drafts
+.vscode
 
 # Numerous always-ignore extensions
 *.diff

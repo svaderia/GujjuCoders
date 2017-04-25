@@ -12,8 +12,6 @@ description:      'Gujjus by heart, Indians by passion, BITSians by destiny.'
 url:              "http://localhost:4000"
 baseurl:	         ""
 
-author:
-  name:           'Shyamal'
-  url:            ''
-
-
+gems:
+  - jemoji
+  - jekyll-gist

@@ -9,11 +9,9 @@ permalink:        /:categories/:title/
 title:            GujjuCoders
 tagline:          'Gujjus by heart, Indians by passion, BITSians by destiny.'
 description:      'Gujjus by heart, Indians by passion, BITSians by destiny.'
-url:              http://svaderia.github.io
-baseurl:          /GujjuCoders
+url:              gujjucoders.me
+baseurl:          
 
-author:
-  name:           'Shyamal'
-  url:            ''
-
-
+gems:
+  - jemoji
+  - jekyll-gist
