@@ -15,16 +15,19 @@ Now I am telling you a trick that will make your life easy. _Atleast coding in C
 ### CODE  
  So make a "makefile" named file in the directory where your C files are present. Then comes the command in the "makefile".  
 {% highlight bash %}
-CC = gcc  
-CFLAGS = -I  
-DEPS = myheader.h  
-OBJ = mydriver.o myheader.o  
+CC = gcc
+CFLAGS =-g -I .
+DEPS = myheader.h
+OBJ = mydriver.o myheader.o
 
-%.o: %.c $(DEPS)  
-    $(CC) -c -o $@ $^ $(CFLAGS)  
-  
-myexe: $(OBJ)  
-    gcc -o $@ $^ $(CFLAGS)   
+%.o: %.c $(DEPS)
+	$(CC) -c $^ $(CFLAGS)
+
+myexe: $(OBJ)
+	gcc -o $@ $^ $(DEPS) $(CFLAGS)
+
+clean:
+	$(RM) myexe
 {% endhighlight %}
 I have no intention of speeding past this.So now comes the explanation.  
 ### MACROS  
