@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unable to use apt-get
+title: Overcome apt lock
 author: sam
 category: Notes
 tags: [ubuntu]
