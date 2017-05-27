@@ -9,8 +9,6 @@ category: Blog
 
 Well, let me first introduce you to a term which is pretty rare for the general public, **[Web 2.0](https://en.wikipedia.org/wiki/Web_2.0)**. Web 2.0 refers to the collection of websites that focus on users, their interaction to the web application, utilising user-content and providing easy to use interfaces. The most "popular" web apllications falling under this domain are social media applications. Most of these websites use technologies that require updates in the real time, the best example of which are chat applications and the forerunner in real-time web based frameworks is Express.js, a framework of Node.js.  
 
-![Real-time](/assets/nodedjango.jpg)
-
 **What is [Node.js](https://en.wikipedia.org/wiki/Node.js)?**  
 
 Chrome, one of the fastest web browsers, uses a compiler(yes, even they need to convert code to machine language) known as V8, for compiling JavaScript code. Node.js is a _run-time environment_ that is built on this V8 engine. This simply means you can run JavaScript codes just like another programming language as C or python on your system.  
@@ -25,7 +23,7 @@ The main idea behind Node.js is using non-blocking, event driven I/O.  Most lang
 
 Traiditional web services work in a way in which each new request leads to the generation of a new thread, a new pathway for communication with the server which takes up system RAM. Consider a simple calculation. If each thread has a memory of 2 MB associated with it and it runs on a system of 8 GB RAM, a theoretical maximum of 4000 simultaneous connections is possible. Node.js rather operates on a single-thread, using non-blocking I/O calls using callbacks, in an event loop that facilitates responding to requests as a whole once they have been processed, that enable it to deal with a theoretical maximum of 1M concurrent connections.  
 
-![webservices](/assets/eventloop.png)
+![webservices](/img/eventloop.png)
 
 _Credits for calculations and Image : Tomislav Capan, JS Developer@[TOPTAL](https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js)_  
 
@@ -58,14 +56,14 @@ Node.js would execute the process in the most logically efficient way. The waite
 As we don't have a server for handling requests, we can depict this by using a setTimeout() function, which takes a "callback" function and a time value as its attributes, callback : the function to be executed in the set time.
 
 ```javascript
-console.log("Order of 1 taken")
-setTimeout(callback,5000)
+console.log("Order of 1 taken");
+setTimeout(callback,5000);
 
-console.log("Order of 2 taken")
-setTimeout(callback,5000)
+console.log("Order of 2 taken");
+setTimeout(callback,5000);
 
-console.log("Order of 3 taken")
-setTimeout(callback,5000)
+console.log("Order of 3 taken");
+setTimeout(callback,5000);
 
 function callback(){
 	console.log("Made and delivered.");
@@ -73,7 +71,7 @@ function callback(){
 ```
 
 Output :
-{% highlight python %}
+{% highlight ruby %}
 Order of 1 taken  
 Order of 2 taken  
 Order of 3 taken  
