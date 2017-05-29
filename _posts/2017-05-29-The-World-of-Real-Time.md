@@ -2,7 +2,7 @@
 layout: post
 title: The World of Real Time
 author: mgh_tkr
-tags: [technology, webD]
+tags: [Technology, Web_D]
 category: Blog
 
 ---
@@ -23,7 +23,7 @@ The main idea behind Node.js is using non-blocking, event driven I/O.  Most lang
 
 Traiditional web services work in a way in which each new request leads to the generation of a new thread, a new pathway for communication with the server which takes up system RAM. Consider a simple calculation. If each thread has a memory of 2 MB associated with it and it runs on a system of 8 GB RAM, a theoretical maximum of 4000 simultaneous connections is possible. Node.js rather operates on a single-thread, using non-blocking I/O calls using callbacks, in an event loop that facilitates responding to requests as a whole once they have been processed, that enable it to deal with a theoretical maximum of 1M concurrent connections.  
 
-![webservices](/img/eventloop.png)
+![webservices](/assets/eventloop.png)
 
 _Credits for calculations and Image : Tomislav Capan, JS Developer@[TOPTAL](https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js)_  
 
