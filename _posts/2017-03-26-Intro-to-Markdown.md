@@ -4,6 +4,7 @@ title: Introduction to Markdown
 author: mgh_tkr
 category: Blog
 tags: [Markdown]
+image : /assets/mdlogo.png
 ---
 Markdown is a lightweight mark'up' language - yeah, it is ironic. It can be converted to HTML fairly easily and provides shortcuts to carry out text formatting like italicising, making lists etc using basic keyboard characters. Its primary usage revolves around the creation of readme files on platforms like github.
 
