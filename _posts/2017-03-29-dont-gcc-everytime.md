@@ -4,6 +4,7 @@ title: Dont "gcc" Everytime
 author: sam
 category: Blog
 tags: [gcc,C]
+excerpt-seprator: <!--excerpt-->
 ---
 
 So, How many of you code in **C**? Raise your hand.  
@@ -12,9 +13,10 @@ Now I am telling you a trick that will make your life easy. _Atleast coding in C
 ### WHY
  So why do we need something if we have got our beloved gcc??  
  Well for starters we need to type in same command multiple times when we debug. This is easy if we have one file to compile but once you start using header files and multiple C files this is hectic and scopes of error increases. This doesn't end. What if your code is 1000's of lines and one file takes tangible time to compile do you want to wait for minutes for code to compile which you havent even changed just so you can debug a silly mistake. All this and more is overcome by `makefile`, after which you just have to input `make` in the terminal and lo! file is compiled.  
+<!--excerpt-->
 ### CODE  
  So make a "makefile" named file in the directory where your C files are present. Then comes the command in the "makefile".  
-{% highlight bash %}
+```bash
 CC = gcc
 CFLAGS =-g -I .
 DEPS = myheader.h
@@ -28,7 +30,7 @@ myexe: $(OBJ)
 
 clean:
 	$(RM) myexe
-{% endhighlight %}
+```
 I have no intention of speeding past this.So now comes the explanation.  
 ### MACROS  
  **CC** tells the C compiler name to make file.  
