@@ -4,6 +4,7 @@ title: Welcome to GujjuCoders
 author: sym
 category: Blog
 tags: [Jekyll]
+image: /assets/WELCOME.jpg
 ---
 
 Hello folks! Welcome to **GujjuCoders**.  

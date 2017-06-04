@@ -4,6 +4,7 @@ title: Merge Sort
 author: aay
 category: Blog
 tags: [Algorithms, Sort, C]
+image: /assets/C.png
 ---
 Merge sort is a sorting algorithm that is better than the three basic sorting algorithms, selection sort, insertion sort and bubble sort. Merge sort is better in terms of 
 its time complexity, which is O(n log(n)). Selection sort, insertion sort and bubble sort each have a complexity of 0(n^2^), which is much slower than O(n log(n)).  

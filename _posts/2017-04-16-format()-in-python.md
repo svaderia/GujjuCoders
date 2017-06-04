@@ -4,6 +4,7 @@ title: Format() in Python
 author: sym
 category: Blog
 tags: [Python]
+image: /assets/python.png
 ---
 
 Today I'm going to write about formatting of strings in Python using `format()` function. 

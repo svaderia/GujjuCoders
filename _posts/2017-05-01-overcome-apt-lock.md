@@ -4,6 +4,7 @@ title: Overcome apt lock
 author: sam
 category: Notes
 tags: [ubuntu]
+image: /assets/linux.png
 ---
 
 Many a time while using 

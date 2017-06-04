@@ -4,6 +4,7 @@ title: Welcome to Terminal
 author: sam
 category: Blog
 tags: [bash]
+image: /assets/linux.png
 ---
 
 How boring is it to come back to same old terminal everytime and find `samip@samip-uos:~$` staring back at you. I don't know about you but I find it sickening.  

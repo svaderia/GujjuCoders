@@ -4,6 +4,7 @@ title: Ubuntu configuration
 author: sym
 category: Blog
 tags: [Linux]
+image: /assets/linux.png
 ---
 
 This post contains all the configuration changes made in my ubuntu system for

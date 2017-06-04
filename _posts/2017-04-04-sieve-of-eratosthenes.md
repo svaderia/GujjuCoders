@@ -4,7 +4,7 @@ title: Sieve of Eratosthenes
 author: mdp98
 category: Blog
 tags: [Algorithms, Competitive Programming, Java]
-image: /assets/algo.jpg
+image: /assets/algorithm.png
 ---
 
 Prime numbers are numbers which have only two factors: 1 and the number itself. 2,3,5,7,11,... are examples of prime numbers.

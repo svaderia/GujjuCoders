@@ -4,6 +4,7 @@ title: Git Quick Notes
 author: sym
 category: Notes
 tags: [git]
+image: /assets/git.png
 ---
 Git is very powerful tool which all of us going to use at some point of time.
 While making this blog I faced some issues like forgetting syntax and option for particular git commands.

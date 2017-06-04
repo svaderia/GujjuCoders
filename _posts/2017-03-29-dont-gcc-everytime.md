@@ -5,6 +5,7 @@ author: sam
 category: Blog
 tags: [gcc,C]
 excerpt-seprator: <!--excerpt-->
+image: /assets/C.png
 ---
 
 So, How many of you code in **C**? Raise your hand.  
