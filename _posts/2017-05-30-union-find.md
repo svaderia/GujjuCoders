@@ -4,7 +4,7 @@ title: Union Find
 author: mdp98
 category: Blog
 tags: [Data Structures, Algorithms, Competitive Programming, Java]
-image: /assets/Octocat.jpg
+image: /assets/algo.jpg
 ---
 
 Efficiency is an important parameter when it comes to algorithms. Efficiency of algorithms sometimes depends on the type of data structure on which the algorithm is implemented i.e. certain algorithms work better when implemented on a certain specific data structure. **Union Find** or **Disjoint Set Union** is an example of one such data structure.
