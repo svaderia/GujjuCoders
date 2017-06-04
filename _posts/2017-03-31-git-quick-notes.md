@@ -130,7 +130,7 @@ $ git reset --hard # Undoes changes on all tracked files
 $ git clean -df # Removes all untracked files
 {% endhighlight %}
 
-### Misc
+### Misc 1
 Sometimes it is very tedious to enter Username and Password for same repo again and again.
 Here is a solution to that!
 {% highlight bash %}
@@ -140,7 +140,19 @@ $ git push https://github.com/repo.git
     Username for 'https://github.com': <USERNAME>
     Password for 'https://USERNAME@github.com': <PASSWORD>
 {% endhighlight %}
+### Misc 2
+Suppose you are on the `master` branch and you would like to test if the `dev` branch can be merged without conflict into the `master`.
+{% highlight bash %}
+# In the master branch
+$ git merge dev --no-ff --no-commit
+{% endhighlight %}
+After that, you will be able to know if there's a conflict or not.  
+To return in a normal situation, just abort the merge:
+{% highlight bash %}
+$ git merge --abort
+{% endhighlight %}
 
+### End
 So I guess I have covered most of the commands of git,
 If you feel something is missing, add it to 
 the file and send a pull request.  
