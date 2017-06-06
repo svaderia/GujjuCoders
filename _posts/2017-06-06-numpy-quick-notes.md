@@ -50,11 +50,17 @@ array([ 0., 0.25, 0.5 , 0.75, 1.])
 
 
 #create a 3x3 array with mean 0 and standard deviation 1 in a given dimension
+#Draw random samples from a normal (Gaussian) distribution.
 >>> np.random.normal(0, 1, (3,3))
 array([[ 0.72432142, -0.90024075,  0.27363808],
       [ 0.88426129,  1.45096856, -1.03547109],
       [-0.42930994, -1.02284441, -1.59753603]])
 
+#create a 3x3 array with mean 0 and standard deviation 1 in a given dimension
+#Draw random samples from a “standard normal” distribution.
+>>> np.random.randn(2, 4)
+array([[-4.49401501,  4.00950034, -1.81814867,  7.29718677], 
+       [ 0.39924804,  4.68456316,  4.99394529,  4.84057254]]) 
 
 #create an identity matrix
 >>> np.eye(3)
