@@ -438,6 +438,23 @@ array([ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.])
 array([  2.,  12.])
 ```
 
+## Misc 3
+`np.random.shuffle()` Modify a sequence in-place by shuffling its contents.
+```python
+>>> arr = np.arange(10)
+>>> np.random.shuffle(arr)
+>>> arr
+[1 7 5 2 9 4 3 6 0 8]
+
+# Multi-dimensional arrays are only shuffled along the first axis:
+>>> arr = np.arange(9).reshape((3, 3))
+>>> np.random.shuffle(arr)
+>>> arr
+array([[3, 4, 5],
+       [6, 7, 8],
+       [0, 1, 2]])
+```
+
 ## Help in Numpy
 ```python
 # Look up info on `mean` with `np.lookfor()` 
