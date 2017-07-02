@@ -2,7 +2,6 @@
 layout: post
 title: Format() in Python
 author: sym
-category: Blog
 tags: [Python]
 image: /assets/python.png
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: Union Find
 author: mdp98
-category: Blog
 tags: [Data Structures, Algorithms, Competitive Programming, Java]
 image: /assets/algorithm.png
 ---

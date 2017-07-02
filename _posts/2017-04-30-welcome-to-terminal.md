@@ -2,7 +2,6 @@
 layout: post
 title: Welcome to Terminal
 author: sam
-category: Blog
 tags: [bash]
 image: /assets/linux.png
 ---

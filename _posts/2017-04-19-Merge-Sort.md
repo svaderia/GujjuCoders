@@ -2,7 +2,6 @@
 layout: post
 title: Merge Sort
 author: aay
-category: Blog
 tags: [Algorithms, Sort, C]
 image: /assets/C.png
 ---

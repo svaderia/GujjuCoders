@@ -2,7 +2,6 @@
 layout: post
 title: Git Quick Notes
 author: sym
-category: Notes
 tags: [git]
 image: /assets/git.png
 ---

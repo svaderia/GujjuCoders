@@ -15,6 +15,6 @@ title: Archive
 
 {% endif %} {% endunless %}
 
-* [{{ post.title }}]({{ site.baseurl}}{{ post.url }}) [{{ post.category }}]
+* [{{ post.title }}.]({{ site.baseurl}}{{ post.url }})
 
 {% endfor %}

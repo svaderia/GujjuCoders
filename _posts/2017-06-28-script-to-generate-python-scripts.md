@@ -2,7 +2,6 @@
 layout: post
 title: Script to genrate python scripts
 author: sym
-category: Blog
 tags: [Python]
 image: /assets/python.png
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: Sieve of Eratosthenes
 author: mdp98
-category: Blog
 tags: [Algorithms, Competitive Programming, Java]
 image: /assets/algorithm.png
 ---

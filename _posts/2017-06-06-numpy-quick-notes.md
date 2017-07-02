@@ -2,7 +2,6 @@
 layout: post
 title: Numpy Quick notes
 author: sym
-category: Blog
 tags: [Python]
 image: /assets/python.png
 ---

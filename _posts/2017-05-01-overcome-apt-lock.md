@@ -2,7 +2,6 @@
 layout: post
 title: Overcome apt lock
 author: sam
-category: Notes
 tags: [ubuntu]
 image: /assets/linux.png
 ---

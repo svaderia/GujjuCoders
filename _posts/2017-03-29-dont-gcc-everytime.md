@@ -2,7 +2,6 @@
 layout: post
 title: Dont "gcc" Everytime
 author: sam
-category: Blog
 tags: [gcc,C]
 excerpt-seprator: <!--excerpt-->
 image: /assets/C.png

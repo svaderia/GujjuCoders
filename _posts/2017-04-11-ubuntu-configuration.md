@@ -2,7 +2,6 @@
 layout: post
 title: Ubuntu configuration
 author: sym
-category: Blog
 tags: [Linux]
 image: /assets/linux.png
 ---

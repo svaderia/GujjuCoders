@@ -2,7 +2,6 @@
 layout: post
 title: The Batman Curve
 author: mdp98
-category: Blog
 tags: MATLAB
 image: /assets/batman.jpg
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: Introduction to Markdown
 author: mgh_tkr
-category: Blog
 tags: [Markdown]
 image : /assets/mdlogo.png
 ---

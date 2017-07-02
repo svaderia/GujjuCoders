@@ -3,7 +3,6 @@ layout: post
 title: The World of Real Time
 author: mgh_tkr
 tags: [Technology, Web_D]
-category: Blog
 image : /assets/nodejs.png
 
 ---
